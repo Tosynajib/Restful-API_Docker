@@ -1,0 +1,25 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: <CLIENT-ID>
+            client-secret: <CLIENT-SECRET>
+
+  datasource:
+    username: postgres
+    password: 1Tantiter.
+    url: jdbc:postgresql://localhost:5432/RestApiBlog
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8080
+  sha512:
+    string: 6a1670d6e14042e88091de0b46adaae710e7490c45fc188d3ba173e9d1b137b2bf36a6173c087587cb073f380fd4aa7bb99f71c288843acc8a07a8404f5ffd03
+  CLIENT:
+    ID: <CLIENT-ID>
+
